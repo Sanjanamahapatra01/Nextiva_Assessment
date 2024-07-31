@@ -95,3 +95,18 @@ class FriendshipNetwork {
        System.out.println("Connection Distance between Alice and Nonexistent: " + network.connectionDistance("Alice", "Nonexistent"));
    }
 }
+
+
+
+
+
+//Overall Time Complexity:
+//
+//   addFriend: O(1)
+//   getFriends: O(1)
+//   commonFriends: O(min(|friends1|, |friends2|))
+//   connectionDegree: O(n + m)  here n denotes the no of people and m denotes the friendship
+//
+//Overall Space Complexity:
+//
+//   O(n + m) for storing the network data.
