@@ -131,3 +131,8 @@ public class WorkflowScheduler {
        System.out.println("Latest Completion Time: " + scheduler.getLatestCompletionTime());
    }
 }
+
+
+//Time complexity : time complexity of the solution is O(n + m), where n is the number of tasks and m is the number of dependencies.
+//
+//Space complexity :  the overall space complexity is O(n + m), accounting for both the tasks and their dependencies.
